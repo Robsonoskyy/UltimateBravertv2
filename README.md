@@ -1,0 +1,1 @@
+In the UltiBravertv2 script you input the role you wanna play and get a nomal champ, dedicated for that role, in bravertnoroles you just get a champion and the build, it can be yuumi jungle, or sion mid, roles don't matter, choose your script accordingly
