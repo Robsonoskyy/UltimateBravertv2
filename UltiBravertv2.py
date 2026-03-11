@@ -88,6 +88,41 @@ summs = {
     
 }
 
+items = {
+    "Legendary": [
+        "Abyssal Mask", "Actualizer", "Ardent Censer", "Axiom Arc", "Bandlepipes", 
+        "Bastionbreaker", "Black Cleaver", "Blackfire Torch", "Blade of The Ruined King", 
+        "Bloodthirster", "Chempunk Chainsword", "Cosmic Drive", "Dead Man's Plate", 
+        "Death's Dance", "Dusk and Dawn", "Echoes of Helia", "Eclipse", "Edge of Night", 
+        "Endless Hunger", "Essence Reaver", "Experimental Hexplate", "Fiendhunter Bolts", 
+        "Frozen Heart", "Guardian Angel", "Guinsoo's Rageblade", "Heartsteel", 
+        "Hexoptics C44", "Hextech Gunblade", "Hextech Rocketbelt", "Horizon Focus", 
+        "Hubris", "Hullbreaker", "Iceborn Gauntlet", "Immortal Shieldbow", 
+        "Imperial Mandate", "Infinity Edge", "Jak'Sho, The Protean", "Knight's Vow", 
+        "Kraken Slayer", "Liandry's Torment", "Lich Bane", "Locket of the Iron Solari", 
+        "Lord Dominik's Regards", "Luden's Companion", "Malignance", "Manamune", 
+        "Maw of Malmortius", "Mejai's Soulstealer", "Mercurial Scimitar", 
+        "Moonstone Renewer", "Morellonomicon", "Mortal Reminder", "Muramana", 
+        "Nashor's Tooth", "Navori Flickerblade", "Opportunity", "Overlord's Bloodmail", 
+        "Phantom Dancer", "Profane Hydra", "Protoplasm Harness", "Rabadon's Deathcap", 
+        "Randuin's Omen", "Rapid Firecannon", "Ravenous Hydra", "Redemption", 
+        "Riftmaker", "Rod of Ages", "Rylai's Crystal Scepter", "Seraph's Embrace", 
+        "Serylda's Grudge", "Shadowflame", "Shurelya's Battlesong", "Spear of Shojin", 
+        "Spirit Visage", "Staff of Flowing Water", "Statikk Shiv", "Sterak's Gage", 
+        "Stormrazor", "Stormsurge", "Stridebreaker", "Sunfire Aegis", "Sundered Sky", 
+        "Terminus", "The Collector", "Thornmail", "Titanic Hydra", "Trailblazer", 
+        "Trinity Force", "Umbral Glaive", "Unending Despair", "Voltaic Cyclosword", 
+        "Warmog's Armor", "Wit's End", "Youmuu's Ghostblade", "Yun Tal Wildarrows", 
+        "Zeke's Convergence", "Zhonya's Hourglass"
+    ],
+    "Boots": [
+        "Berserker's Greaves", "Boots of Swiftness", "Ionian Boots of Lucidity", 
+        "Mercury's Treads", "Plated Steelcaps", "Sorcerer's Shoes",
+    ]
+}
+
+
+
 skills = ["q", "w", "e"]
 skillsr = ["q","w","e","r"]
 
@@ -185,6 +220,15 @@ else:
     skil = random.choice(skills)
     print("")   
     print(f"skill to max: {skil}") 
+
+
+print("Items: ")
+print(random.choice(items["Legendary"]))
+print(random.choice(items["Legendary"]))
+print(random.choice(items["Legendary"]))
+print(random.choice(items["Legendary"]))
+print(random.choice(items["Legendary"]))
+print(random.choice(items["Boots"]))
 
 
 
