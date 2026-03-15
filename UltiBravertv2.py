@@ -89,6 +89,8 @@ summs = {
 }
 
 items = {
+
+    "Support": ["Zak zaks realmspike", "Celestial opposition", "Dream maker", "Solstice sleight", "Bloodsong"],
     "Legendary": [
         "Abyssal Mask", "Actualizer", "Ardent Censer", "Axiom Arc", "Bandlepipes", 
         "Bastionbreaker", "Black Cleaver", "Blackfire Torch", "Blade of The Ruined King", 
@@ -184,7 +186,7 @@ elif rune  == "lblue":
 else: print("")
 
 print("")
-print("Secondary:")
+print(f"Secondary : {secondary}")
 
 
 
@@ -221,19 +223,26 @@ else:
     print("")   
     print(f"skill to max: {skil}") 
 
+if role == "support":
+    print("Items: ")
+    print(random.choice(items["Support"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Boots"]))
 
-print("Items: ")
-print(random.choice(items["Legendary"]))
-print(random.choice(items["Legendary"]))
-print(random.choice(items["Legendary"]))
-print(random.choice(items["Legendary"]))
-print(random.choice(items["Legendary"]))
-print(random.choice(items["Boots"]))
+else:
+    print("Items: ")
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Legendary"]))
+    print(random.choice(items["Boots"]))
 
 
 
 
 
 
-
-#credit to revity303 for figuring out secondary runes
