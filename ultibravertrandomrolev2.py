@@ -1,16 +1,21 @@
 import random
-from libraries import championsr,runesmain,runesyellow,runesred,runesblue,runesgreen,runeslblue,skills,skillsr,items,summs
+from libraries import champions,runesmain,runesyellow,runesred,runesblue,runesgreen,runeslblue,skills,skillsr,items,summs
 
+role = random.choice(list(champions.keys()))
 
-
-
-champ = (random.choice(championsr))
-print(champ)
-
+if role in champions:
+    champ = (random.choice(champions[role]))
+    print(champ)
+else:
+    print(f"No such role as {role} you retard")
 
 print("")
 summsp = random.sample(summs["all"], 2)
-print(summsp)
+if role != "jungle":
+    print(summsp)
+else:
+    print(random.choice(summs["all"]))
+    print(summs["jg"])
 
 rune = random.choice(list(runesmain.keys()))
 
